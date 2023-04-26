@@ -2,21 +2,25 @@
     {
         "id": "1",
         "name": "NLP Personality Predition",
-        "description": "Developed a model to predict personality type based on text using bi-directional LSTM and Five-factor psychological test."
+        "description": "Developed a model to predict personality type based on text using bi-directional LSTM and Five-factor psychological test.",
+        "link": "https://github.com/NY1105/SHG_Hackathon_2023_ML"
     },
     {
         "id": "2",
         "name": "Front-end - Rate Your Agents",
-        "description": "Collaborated with a team of 5 to develop a website for rating headhunt agents."
+        "description": "Collaborated with a team of 5 to develop a website for rating headhunt agents.",
+        "link": "https://github.com/rate-your-agents/rya-next-app"
     },
     {
         "id": "3",
         "name": "MERN Stack Project",
-        "description": "Created an personal website using MERN stack and deployed with cPanel."
+        "description": "Created an personal website using MERN stack and deployed with cPanel.",
+        "link": "https://github.com/whongam/personal-web"
     },
     {
         "id": "4",
         "name": "Crypto Currency Tracker",
-        "description": "Developed an app to track the price of cryptocurrencies."
+        "description": "Developed an app to track the price of cryptocurrencies.",
+        "link": "https://github.com/whongam/CoinApp"
     }
 ]

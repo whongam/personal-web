@@ -1,6 +1,10 @@
-import { Box, Stack, Typography, Link } from "@mui/material";
+import { Box, Stack, Typography, Link, useTheme } from "@mui/material";
+import { tokens } from "../../theme";
 
 const Contacts = () => {
+  const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
+
   return (
     <Box
       sx={{
@@ -26,7 +30,7 @@ const Contacts = () => {
           }}
         >
           <Typography variant="h2">Email</Typography>
-          <Link href="honamwongg@gmail.com" underline="hover" color="#6870fa">
+          <Link href="honamwongg@gmail.com" underline="hover" color="secondary">
             honamwongg@gmail.com
           </Link>
         </Box>
@@ -46,7 +50,7 @@ const Contacts = () => {
           <Link
             href="https://github.com/whongam"
             underline="hover"
-            color="#6870fa"
+            color="secondary"
           >
             https://github.com/whongam
           </Link>
@@ -69,7 +73,7 @@ const Contacts = () => {
           <Link
             href="https://www.linkedin.com/in/wonghonam/"
             underline="hover"
-            color="#6870fa"
+            color="secondary"
           >
             https://www.linkedin.com/in/wonghonam/
           </Link>

@@ -6,12 +6,18 @@ import {
   Typography,
   Box,
 } from "@mui/material";
+
+import { useTheme } from "@mui/material/styles";
+import { tokens } from "../../theme";
 import React from "react";
 import Tools from "../../data/Tools";
 
 const About = () => {
+  const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
+
   return (
-    <Box>
+    <Box sx={{margin:4}}>
       <Typography variant="h1" align="center" paddingBottom={3}>
         Tools I Have Used
       </Typography>
@@ -25,6 +31,7 @@ const About = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
+                    backgroundColor:colors.primary[400]
                   }}
                 >
                   <CardMedia
@@ -39,7 +46,7 @@ const About = () => {
                     title={tool.name}
                   />
                 </Box>
-                <CardContent>
+                <CardContent sx={{backgroundColor:colors.primary[400]}}>
                   <Typography variant="h4" component="h2" align="center">
                     {tool.name}
                   </Typography>
