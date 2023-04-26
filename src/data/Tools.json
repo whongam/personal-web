@@ -1,12 +1,32 @@
 [
     {
-        "id": "1",
-        "name": "John Doe",
-        "email": ""
+      "id": 1,
+      "name": "Node.js",
+      "img": "/assets/nodejs.png"
     },
     {
-        "id": "2",
-        "name": "Jane Doe",
-        "email": ""
+      "id": 2,
+      "name": "cPanel",
+      "img": "/assets/cpanel.png"
+    },
+    {
+      "id": 3,
+      "name": "Git",
+      "img": "/assets/git.png"
+    },
+    {
+      "id": 4,
+      "name": "GitHub",
+      "img": "/assets/github.png"
+    },
+    {
+      "id": 5,
+      "name": "VS Code",
+      "img": "/assets/visual-studio.png"
+    },
+    {
+      "id": 6,
+      "name": "React",
+      "img": "/assets/react.png"
     }
-]
+  ]
