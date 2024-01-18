@@ -38,7 +38,7 @@ export default function About() {
           >
             I love playing the guitar, hiking and bouldering. I am
             currently pursuing a CS degree in CityU. I am {getDate()}{" "}
-            years old.I love exploring new technologies.
+            years old. I love exploring new technologies.
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
