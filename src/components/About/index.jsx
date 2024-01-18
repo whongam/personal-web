@@ -44,8 +44,8 @@ export default function About() {
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
-            I am currently looking for jobs. I am also a discord bot developer.
-            I worked on reactJs, NextJs, TypeScript, Java and many more. I am
+            I am currently open for jobs. I am also a backend developer.
+            I worked on reactJs, JavaScript, Java and many more. I am
             also looking to collaborate in open-source projects.
           </p>
         </div>
@@ -54,11 +54,6 @@ export default function About() {
           class="relative flex-auto w-32   sm:rounded-lg  pl-4"
           data-aos={"slide-left"}
         >
-          {/* <img
-            src={LearningCode}
-            alt="Learning Code"
-            className="motion-safe:animate-zoomy"
-          /> */}
           <div className="motion-safe:animate-zoomy">
             <lottie-player
               autoplay
@@ -70,8 +65,8 @@ export default function About() {
           </div>
 
           <a
-            href={require("../../assets/files/Daniel Resume.pdf")}
-            download={"Dani's Resume"}
+            href={require("../../assets/resume/CV WONG Ho Nam.pdf")}
+            download={"Ken Resume"}
             target="_blank"
             rel="noreferrer"
             className="py-1 md:py-2 lg:py-3 mt-3 lg:mt-5 text-white mx-auto px-4  lg:px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 sm:text-xl  animate-zoomy"

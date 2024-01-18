@@ -30,8 +30,7 @@ export default function Sidebar() {
             <img
               src={require("../assets/images/myImage.jpg")}
               alt="Ken Wong"
-              // title="Discord Activity"
-              className="rounded-full border-solid cursor-pointer  border-[8px] border-stone-600 min-h-fit mx-auto  max-w-[190px]"
+              className="rounded-full border-solid cursor-pointer  border-[4px] border-stone-600 min-h-auto mx-auto  max-w-[190px]"
             />
             <h3 className="text-white name py-4 font-medium ">
               Ken Wong
