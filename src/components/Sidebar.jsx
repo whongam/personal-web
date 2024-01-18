@@ -105,23 +105,7 @@ export default function Sidebar() {
             <p title="Projects"> Projects</p>
           </NavLink>
         </p>
-        <p
-          onClick={() => setSelect(4)}
-          className={`cursor-pointer hover:text-blue-600 hover:-translate-y-0.5 hover:text-xl transition hover:transition ${
-            select === 4 ? "text-blue-600 " : ""
-          }`}
-          data-aos="slide-right"
-          data-aos-delay="1800"
-        >
-          <NavLink
-            to="#contact"
-            onClick={() => {
-              scroll("contact");
-            }}
-          >
-            <p title="Contact"> Contact</p>
-          </NavLink>
-        </p>
+
       </div>
       <div
         className="text-white flex flex-row gap-5 w-fit mx-auto pt-7"
