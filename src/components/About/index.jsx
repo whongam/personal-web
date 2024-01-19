@@ -54,12 +54,12 @@ export default function About() {
           class="relative flex-auto w-36   sm:rounded-lg  pl-4"
           data-aos={"slide-left"}
         >
-          <div className="visible motion-safe:animate-zoomy lg:invisible ">
+          <div className="motion-safe:animate-zoomy ">
             <lottie-player
               autoplay
               loop
               mode="bounce"
-              src="https://lottie.host/e2fe48f4-e961-46c3-b044-96501b9e14cb/K4YOBSG6NB.json"
+              src="https://lottie.host/110011f2-c4a2-4d8e-8582-5c1d08797b30/8qnULkRS5E.json"
               style={{ width: "400px" }}
             />
           </div>
