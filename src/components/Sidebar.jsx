@@ -6,7 +6,8 @@ import EmailIcon from "@mui/icons-material/Email";
 // import { Email } from "@mui/icons-material";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 export default function Sidebar() {
   const [select, setSelect] = useState(0);
@@ -107,6 +108,9 @@ export default function Sidebar() {
         </p>
 
       </div>
+
+
+      {/* Buttons to socials */}
       <div
         className="text-white flex flex-row gap-5 w-fit mx-auto pt-7"
         data-aos="slide-up"
@@ -120,6 +124,7 @@ export default function Sidebar() {
         >
           <GitHubIcon className="cursor-pointer hover:scale-105" />
         </div>
+
         <div
           title="Instagram"
           onClick={() =>
@@ -133,8 +138,7 @@ export default function Sidebar() {
           title="Linkedin"
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/wonghonam/",
-              "_blank"
+              "https://www.linkedin.com/in/wonghonam/", "_blank"
             )
           }
         >
@@ -143,16 +147,12 @@ export default function Sidebar() {
         </div>
 
         <div
-          title="Discord"
-          onClick={() =>
-            window.open(
-              "https://discordapp.com/users/285071441743839234/",
-              "_blank"
-            )
-          }
+          title="Email"
         >
+          <a href="mailto:honamwongg@gmail.com">
+            <EmailIcon className="cursor-pointer hover:scale-105" />
+          </a>
           {" "}
-          <EmailIcon className="cursor-pointer hover:scale-105" />
         </div>
       </div>
     </div>
