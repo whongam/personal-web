@@ -125,15 +125,6 @@ export default function Sidebar() {
           <GitHubIcon className="cursor-pointer hover:scale-105" />
         </div>
 
-        {/* <div
-          title="Instagram"
-          onClick={() =>
-            window.open("https://www.instagram.com/whongam", "_blank")
-          }
-        >
-          {" "}
-          <InstagramIcon className="cursor-pointer hover:scale-105" />
-        </div> */}
         <div
           title="Linkedin"
           onClick={() =>
