@@ -1,13 +1,9 @@
 import "../App.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import EmailIcon from "@mui/icons-material/Email";
-// import { Email } from "@mui/icons-material";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
-
 
 export default function Sidebar() {
   const [select, setSelect] = useState(0);
@@ -31,7 +27,7 @@ export default function Sidebar() {
             <img
               src={require("../assets/images/myImage.jpg")}
               alt="Ken Wong"
-              className="rounded-full border-solid cursor-pointer  border-[4px] border-stone-600 min-h-auto mx-auto  max-w-[190px]"
+              className="rounded-full border-solid cursor-pointer border-[4px] border-stone-600 min-h-auto mx-auto max-w-[190px]"
             />
             <h3 className="text-white name py-4 font-medium ">
               Ken Wong
@@ -81,12 +77,12 @@ export default function Sidebar() {
           data-aos-delay="1000"
         >
           <NavLink
-            to="#resume"
+            to="#experience"
             onClick={() => {
-              scroll("resume");
+              scroll("experience");
             }}
           >
-            <p title="Resume"> Resume</p>
+            <p title="Experience"> Experience</p>
           </NavLink>
         </p>
         <p
@@ -104,6 +100,24 @@ export default function Sidebar() {
             }}
           >
             <p title="Projects"> Projects</p>
+          </NavLink>
+        </p>
+
+        <p
+          onClick={() => setSelect(4)}
+          className={`cursor-pointer hover:text-blue-600 hover:-translate-y-0.5 hover:text-xl transition hover:transition ${
+            select === 4 ? "text-blue-600 " : ""
+          }`}
+          data-aos="slide-right"
+          data-aos-delay="1800"
+        >
+          <NavLink
+            to="#contact"
+            onClick={() => {
+              scroll("contact");
+            }}
+          >
+            <p title="Contact"> Contact</p>
           </NavLink>
         </p>
 

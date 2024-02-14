@@ -1,35 +1,42 @@
-@font-face {
-    font-family: "Roboto_slab";
-    src: local("Roboto_slab"),
-      url(./fonts/Roboto_slab/RobotoSlab-Regular.ttf) format("truetype");
-  }
-  
   @font-face {
     font-family: "Gilda_display";
     src: local("Gilda_display"),
       url(./fonts/Gilda_display/GildaDisplay-Regular.ttf) format("truetype");
   }
-  
+
   @font-face {
-    font-family: "Roboto_slab";
+    font-family: "Roboto-bold";
     font-weight: 900;
-    src: local("Roboto_slab"),
-      url(./fonts/Roboto_slab/RobotoSlab-Bold.ttf) format("truetype");
+    src: local("Roboto"),
+      url(./fonts/Roboto/Roboto-Bold.ttf) format("truetype");
   }
-  
+
   @font-face {
-    font-family: "Roboto_slab";
-    font-weight: 900;
-    src: local("Roboto_slab"),
-      url(./fonts/Roboto_slab/RobotoSlab-Black.ttf) format("truetype");
+    font-family: "Roboto-Regular";
+    src: local("Roboto"),
+      url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
   }
-  
+
+  @font-face {
+    font-family: "Roboto-Black";
+    font-weight: 900;
+    src: local("Roboto-Black"),
+      url(./fonts/Roboto/Roboto-Black.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Roboto-Mono";
+    font-weight: 900;
+    src: local("Roboto_mono"),
+      url(./fonts/Roboto_mono/Roboto-Black.ttf) format("truetype");
+  }
+
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
     }
   }
-  
+
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -38,31 +45,31 @@
       transform: rotate(360deg);
     }
   }
-  
+
   .name {
-    font-family: Roboto_slab, "Times New Roman", Times, serif;
-    font-weight: 500;
+    font-family: Roboto-Regular, sans-serif;
+    font-weight: 800;
     font-size: larger;
   }
-  
+
   .head {
-    font-family: Roboto_slab, "Times New Roman", Times, serif;
+    font-family: Roboto, sans-serif;
   }
-  
+
   .nav {
-    font-family: Gilda_display, Arial, serif;
+    font-family: Roboto-Mono, 'Times New Roman', Times, serif;
     font-weight: 700;
   }
-  
+
   .para {
     font-family: Gilda_display, Arial, serif;
     /* font-weight: 700; */
   }
-  
+
   .back {
     background-color: #0f0f0f;
   }
-  
+
   .cursor {
     position: fixed;
     width: 23px;
@@ -73,4 +80,3 @@
     pointer-events: none;
     mix-blend-mode: difference;
   }
-  
